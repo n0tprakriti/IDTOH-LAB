@@ -1,0 +1,13 @@
+# environment.yml
+name: social-content-app
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - streamlit
+  - requests
+  - pip
+  - pip:
+      - openai  # if you plan to switch to Gemini later via pip package
+      
